@@ -1,0 +1,147 @@
+*{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+          font-size: 62.5%;
+}
+:root{
+          --head-color:#EDDFDF;
+          --head-background: #333;
+}
+.heading{
+          height: 19rem;
+          background: var(--head-background);
+
+}
+.top-head{
+          
+          height: 4rem;
+          display: flex;
+          
+          align-items: center;
+          justify-items: flex-start;
+          color: var(--head-color) ;
+          
+}
+.top-head p,i{
+          font-size: 2rem;
+}
+.top-head .fa-location-dot{
+          margin-left: 135px;
+}
+.top-head .fa-phone{
+          margin-left: 15px;
+}
+.top-head p{
+          margin-left: 8px;
+}
+.top-head .fa-facebook-f{
+          margin-left: 60rem;
+}
+.top-head i:nth-of-type(3){
+          margin-right: 5px;
+}
+.top-head i:nth-of-type(4){
+          margin-right: 5px;
+}
+.middle-head{
+          height: 10rem;
+          display: flex;
+          align-items: center;
+          border-top: 1px solid var(--head-color);
+          border-bottom: 1px solid var(--head-color);
+}
+.middle-head .search-bar{
+          display: flex;
+          margin-left: 24rem;
+          align-items: center;
+          
+          
+}
+.search-bar #search{
+          height: 4.3rem;
+          width: 38rem;
+          font-size: 1.8rem;
+          border-radius: 5px 0 0 5px;
+          flex: 8;
+          border-right: none;
+}
+
+.search-bar .fa-magnifying-glass{
+          background: #C89979;
+          width: 5rem;
+          height: 4rem;
+          color: white;
+          border-radius: 0 5px 5px 0;
+          flex: 1.5;
+          text-align: center;
+          line-height: 4rem;
+          
+}
+.middle-head .logo{
+          height: 6rem;
+          margin-left: 13.6rem;
+}
+.login{
+          margin-left: 15rem;
+          text-decoration: none;
+          color: white;
+          font-size: 2.2rem;
+          font-weight: bold;
+          text-transform: uppercase;
+}
+.middle-head .fa-heart,.fa-bag-shopping{
+          font-size: 3rem;
+          color: white;
+          margin-left: 1rem;
+}
+.nav{
+          height: 5rem;
+}
+.top-menu {
+          height: 5rem;
+          position: relative;
+}
+.top-menu .list-item a{
+          text-decoration: none;
+          font-size: 2rem;
+          color: white;
+}
+.top-menu .list-item:hover a{
+          color: #C89979;
+          border-bottom:1px solid #C89979;
+}
+.top-menu .list-item{
+          position: absolute;
+}
+.top-menu li:nth-child(1){
+          top: 50%;
+          transform: translateY(-50%);
+          left: 25rem;
+}
+.top-menu li:nth-child(2){
+          top: 50%;
+          transform: translateY(-50%);
+          left: 40rem;
+}
+.top-menu li:nth-child(3){
+          top: 50%;
+          transform: translateY(-50%);
+          left: 55rem;
+}
+.top-menu li:nth-child(4){
+          top: 50%;
+          transform: translateY(-50%);
+          left: 75rem;
+}
+.top-menu li:nth-child(5){
+          top: 50%;
+          transform: translateY(-50%);
+          left: 95rem;
+}
+.top-menu li:nth-child(6      ){
+          top: 50%;
+          transform: translateY(-50%);
+          left: 110rem;
+}
+
