@@ -245,3 +245,124 @@ i {
 .nav-after:hover {
     transition: 0.5s;
 }
+.content {
+    width: 120rem;
+    /* background-color: red;
+    height: 80rem; */
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 6rem;
+}
+.img-content-1 img:first-child {
+    margin-right: 1.85rem;
+}
+.Product-1 h2 {
+    font-size: 2.6rem;
+    font-weight: 700;
+    margin-top: 8rem;
+    margin-bottom: 1rem;
+}
+.Product-4 {
+    display: flex;
+}
+.box {
+    flex-basis: 23.13%;
+    border: 1px solid #333;
+    height: 46rem;
+    margin-right: 3rem;
+}
+.box:last-child {
+    margin-right: -3rem;
+}
+.box-2 {
+    border-top: 1px solid #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.box-2 p:nth-child(1) {
+    margin-top: 20px;
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.box-2 p:nth-child(2) {
+    font-size: 1.4rem;
+    text-align: center;
+    color: #c89979;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.box-2 p:nth-child(2) span {
+    font-size: 1.4rem;
+    text-decoration: line-through;
+}
+.add-product {
+    display: inline-block;
+    font-size: 1.6rem;
+    color: white;
+    background-color: #c89979;
+    padding: 1rem 2rem;
+    font-weight: bold;
+}
+.add-product:hover {
+    cursor: pointer;
+}
+.box:first-child {
+    position: relative;
+}
+.discount {
+    position: absolute;
+
+    width: 5rem;
+    height: 5rem;
+    background-color: #c89979;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 3rem;
+    left: -1rem;
+}
+.discount p {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+}
+.img-content-2 {
+    margin-top: 12rem;
+}
+.img-content-2 img:first-child {
+    margin-right: 2.85rem;
+}
+.img-content-2 img {
+    border-radius: 10px;
+}
+.Product-2 {
+    margin-top: 12.5rem;
+}
+.Product-2 h2 {
+    display: inline-block;
+    font-size: 2.5rem;
+    margin-right: 2rem;
+}
+.Product-2 h2:first-child {
+    color: #c89979;
+}
+.Product-5 {
+    display: flex;
+    margin-top: 4rem;
+}
+.box2 {
+    flex-basis: 18%;
+    border: 1px solid #333;
+    height: 38rem;
+    margin-right: 3rem;
+}
+.box2:last-child {
+    margin-right: -3rem;
+}
+.box2 p:first-child {
+    font-weight: bold;
+}
