@@ -7,6 +7,7 @@
 :root {
     --head-color: #eddfdf;
     --head-background: #333;
+    --product-color: rgba(3, 3, 3, 0.3);
 }
 .heading {
     height: 19rem;
@@ -267,7 +268,7 @@ i {
 }
 .box {
     flex-basis: 23.13%;
-    border: 1px solid #333;
+    border: 1px solid var(--product-color);
     height: 46rem;
     margin-right: 3rem;
 }
@@ -275,7 +276,7 @@ i {
     margin-right: -3rem;
 }
 .box-2 {
-    border-top: 1px solid #333;
+    border-top: 1px solid var(--product-color);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -356,7 +357,7 @@ i {
 }
 .box2 {
     flex-basis: 18%;
-    border: 1px solid #333;
+    border: 1px solid var(--product-color);
     height: 38rem;
     margin-right: 3rem;
 }
@@ -365,4 +366,81 @@ i {
 }
 .box2 p:first-child {
     font-weight: bold;
+}
+.content-news {
+    display: flex;
+    padding: 0 0 90px 0;
+    border-bottom: 1px solid black;
+}
+.new-1,
+.new-2,
+.new-3 {
+    flex-basis: 38rem;
+    margin-top: 11rem;
+}
+.new-1:hover,
+.new-2:hover,
+.new-3:hover {
+    cursor: pointer;
+}
+.new-1,
+.new-2 {
+    margin-right: 3rem;
+}
+.new-1 a,
+.new-2 a,
+.new-3 a {
+    text-decoration: none;
+    font-size: 2rem;
+    color: black;
+    font-weight: bold;
+    display: block;
+    margin-top: 1.5rem;
+}
+.new-1 a:hover,
+.new-2 a:hover,
+.new-3 a:hover {
+    color: #c89979;
+}
+.new-1 p,
+.new-2 p,
+.new-3 p {
+    font-size: 1.6rem;
+    margin-top: 1.5rem;
+}
+.register-info {
+    margin-top: 6rem;
+    margin-bottom: 5rem;
+    display: flex;
+}
+.register-info label {
+    font-size: 2.6rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: 38rem;
+}
+.register-info input {
+    min-width: 35rem;
+    border: none;
+    background-color: #f1f1f1;
+    border-radius: 5px 0 0 5px;
+    padding: 1.2rem 0 1.2rem 1rem;
+    font-size: 1.6rem;
+}
+.btn-register {
+    width: 10rem;
+    background-color: #c89979;
+    text-align: center;
+    border-radius: 0 5px 5px 0;
+}
+.btn-register a {
+    display: inline;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 4.2rem;
+    color: white;
+}
+.btn-register:hover {
+    background-color: #ac8b74;
 }
