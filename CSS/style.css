@@ -229,7 +229,7 @@ i {
     justify-content: center;
     position: absolute;
     top: 50%;
-    right: 2rem;
+    right: 3rem;
 }
 .nav-after:hover {
     background: #c89979;
@@ -513,7 +513,7 @@ a {
     align-items: center;
 }
 .foot-bottom p,
-span {
+.foot-bottom span {
     font-size: 1.5rem;
     margin-right: 23rem;
     margin-top: 10px;
