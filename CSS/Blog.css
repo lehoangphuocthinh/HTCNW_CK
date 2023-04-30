@@ -55,6 +55,10 @@ i {
     margin-left: 24rem;
     align-items: center;
 }
+.middle-head a:last-of-type {
+    margin-left: 0px;
+    margin-bottom: 10px;
+}
 .search-bar #search {
     height: 4.3rem;
     width: 38rem;
@@ -120,7 +124,7 @@ i {
     transform: translateY(-50%);
     left: 38.7rem;
 }
-.top-menu li:nth-child(2) a {
+.top-menu li:nth-child(5) a {
     color: #c89979;
     border-bottom: 1px solid #c89979;
 }

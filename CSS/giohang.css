@@ -56,6 +56,10 @@ i {
     margin-left: 24rem;
     align-items: center;
 }
+.middle-head a:last-of-type {
+    margin-left: 0px;
+    margin-bottom: 10px;
+}
 .search-bar #search {
     height: 4.3rem;
     width: 38rem;
